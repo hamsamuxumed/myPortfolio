@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 
 const Main = ({ children, router }) => {
@@ -9,6 +10,8 @@ const Main = ({ children, router }) => {
                 <title>Hamsa Muxumed - Homepage</title>
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
+            <NavBar path={router.asPath} />
+
 
             <Container maxW="container.md" pt={14}>
                 {children}
