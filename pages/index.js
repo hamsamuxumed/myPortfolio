@@ -1,12 +1,17 @@
-import { Container, Box, Heading, Image } from "@chakra-ui/react"
-// import Image from 'next/image'
-//import styles from '../styles/Home.module.css'
+import { Container, Box, Heading, Image, useColorModeValue } from "@chakra-ui/react"
+
+
 
 function Home() {
   return (
-    //<div className={styles.container}>
+
     <Container>
-      <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3} mb={6}
+        align="center"
+      >
         Hello, I&apos;m a full-stack developer based in the UK
       </Box>
       <Box display={{ md: 'flex' }}>
@@ -38,7 +43,7 @@ function Home() {
       </Box>
 
     </Container>
-    //</div>
+
   )
 }
 
