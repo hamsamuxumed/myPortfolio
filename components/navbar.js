@@ -110,16 +110,11 @@ const NavBar = props => {
                                 as={Link}
                                 href="https://github.com/hamsamuxumed/myPortfolio"
                             >
-                                Views Source
+                                View Source
                             </MenuItem>
-
                         </MenuList>
-
-
                     </Menu>
                 </Box>
-
-
             </Container >
         </Box >
     )
