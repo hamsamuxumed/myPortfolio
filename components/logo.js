@@ -29,6 +29,7 @@ const Logo = () => {
     return (
         <Link href="/">
             <a>
+                {/* //change the footprint image */}
                 <LogoBox>
                     <Image src={footPrintImg} width={20} height={20} alt="logo" />
                     <Text
