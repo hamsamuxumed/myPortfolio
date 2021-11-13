@@ -1,4 +1,7 @@
-import { Container, Box, Heading, Image, useColorModeValue } from "@chakra-ui/react"
+import { Link, Container, Box, Heading, Image, Button, useColorModeValue } from "@chakra-ui/react"
+import Paragraph from "../components/paragraph"
+import Section from "../components/section"
+import NextLink from 'next/link'
 
 
 
@@ -9,8 +12,9 @@ function Home() {
       <Box
         borderRadius="lg"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        p={3} mb={6}
-        align="center"
+        p={3}
+        mb={6}
+        textAlign="center"
       >
         Hello, I&apos;m a full-stack developer based in the UK
       </Box>
@@ -41,6 +45,27 @@ function Home() {
           />
         </Box>
       </Box>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Projects
+        </Heading>
+        <Paragraph>
+
+          Art, video games and football enthusiast, with a passion for web development. I am a person who loves to learn and gain new skills, the empowering feeling of crafting a project from scratch and the satisfaction of problem solving is why I pursued a career in tech.
+          <NextLink href='./works'>
+            <Link>Work</Link>
+          </NextLink>
+          .
+        </Paragraph>
+        <Box align='center' my={4}>
+          <NextLink href='./works'>
+            <Button >
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section >
 
     </Container>
 
