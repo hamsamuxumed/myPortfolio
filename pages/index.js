@@ -80,6 +80,11 @@ function Home() {
           hello - hello
         </BioSection>
       </Section>
+      <Section delay={0.3}>
+        <Heading as='h3' variant='section-title'>
+          Hobbies
+        </Heading>
+      </Section>
 
 
     </Container>
