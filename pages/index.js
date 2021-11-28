@@ -27,7 +27,7 @@ function Home() {
             Hamsa Muxumed
           </Heading >
           <p>
-            Art, video games and football enthusiast, with a passion for web development. I am a person who loves to learn and gain new skills, the empowering feeling of crafting a project from scratch and the satisfaction of problem solving is why I pursued a career in tech.
+            Art, video games and football enthusiast, with a passion for web development. I am a person who loves to learn and gain new skills, I thrive for the empowering feeling of crafting a project from scratch and the satisfaction of problem solving.
           </p>
         </Box>
         <Box
@@ -53,10 +53,11 @@ function Home() {
         <Heading as="h3" variant="section-title">
           Projects
         </Heading>
-        <Paragraph>
+        {/* <Paragraph> */}
+        <b>...Sorry, The site is still under construction ...</b>
+        <br />
 
-          Art, video games and football enthusiast, with a passion for web development. I am a person who loves to learn and gain new skills, the empowering feeling of crafting a project from scratch and the satisfaction of problem solving is why I pursued a career in tech. {' '}
-          <NextLink href='./works'>
+        {/* <NextLink href='./works'>
             <Link>Work</Link>
           </NextLink>
           .
@@ -67,23 +68,27 @@ function Home() {
               My Portfolio
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section >
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
+        {/*<BioSection>
           <BioYear> 1997
           </BioYear>
           hello - hello
-        </BioSection>
+        </BioSection> */}
+        <b>...Under construction ...</b>
+        <br />
       </Section>
       <Section delay={0.3}>
         <Heading as='h3' variant='section-title'>
           Hobbies
         </Heading>
+        <b>...Under construction ...</b>
+        <br />
       </Section>
 
 
