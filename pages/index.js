@@ -53,11 +53,11 @@ function Home() {
         <Heading as="h3" variant="section-title">
           Projects
         </Heading>
-        {/* <Paragraph> */}
-        <b>...Sorry, The site is still under construction ...</b>
-        <br />
+        <Paragraph>
+          <b>...Sorry, The site is still under construction ...</b>
+          <br />
 
-        {/* <NextLink href='./works'>
+          <NextLink href='./works'>
             <Link>Work</Link>
           </NextLink>
           .
@@ -68,20 +68,19 @@ function Home() {
               My Portfolio
             </Button>
           </NextLink>
-        </Box> */}
+        </Box>
       </Section >
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        {/*<BioSection>
-          <BioYear> 1997
+        <BioSection>
+          <BioYear> ...
           </BioYear>
-          hello - hello
-        </BioSection> */}
-        <b>...Under construction ...</b>
-        <br />
+          ...Under construction ...
+        </BioSection>
+
       </Section>
       <Section delay={0.3}>
         <Heading as='h3' variant='section-title'>
